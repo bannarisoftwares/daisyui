@@ -173,22 +173,22 @@ module.exports = {
     let includedThemesObj = new Object();
 
     // add light themes
-    if (config("dcui.themes") == false) {
+    if (config("dculuzui.themes") == false) {
       Object.entries(themes).forEach(([theme, index]) => {
         includedThemesObj[theme] = convertToHsl(themes[theme]);
       });
     }
 
     // add default themes
-    if (config("dcui.themes") != false) {
+    if (config("dculuzui.themes") != false) {
       Object.entries(themes).forEach(([theme, index]) => {
         includedThemesObj[theme] = convertToHsl(themes[theme]);
       });
     }
 
     // add custom themes
-    if (Array.isArray(config("dcui.themes"))) {
-      config("dcui.themes").forEach((item, index) => {
+    if (Array.isArray(config("dculuzui.themes"))) {
+      config("dculuzui.themes").forEach((item, index) => {
         if (typeof item === "object" && item !== null) {
           Object.entries(item).forEach(([customThemeName, customThemevalue]) => {
             includedThemesObj["[data-theme=" + customThemeName + "]"] =
@@ -201,8 +201,8 @@ module.exports = {
 
 
     let themeOrder = [];
-    if (Array.isArray(config("dcui.themes"))) {
-      config("dcui.themes").forEach((theme, index) => {
+    if (Array.isArray(config("dculuzui.themes"))) {
+      config("dculuzui.themes").forEach((theme, index) => {
         if (typeof theme === "object" && theme !== null) {
           Object.entries(theme).forEach(([customThemeName, customThemevalue]) => {
             themeOrder.push(customThemeName);
@@ -213,7 +213,7 @@ module.exports = {
           themeOrder.push(theme);
         }
       });
-    } else if (config("dcui.themes") != false) {
+    } else if (config("dculuzui.themes") != false) {
       themeOrder = [
         "light",
         "dark",
@@ -245,7 +245,7 @@ module.exports = {
         "coffee",
         "winter",
       ];
-    } else if (config("dcui.themes") == false) {
+    } else if (config("dculuzui.themes") == false) {
       themeOrder.push("light");
     }
 
@@ -258,16 +258,16 @@ module.exports = {
         });
       } else if (index === 1) {
         // auto dark
-        if (config("dcui.darkTheme")) {
+        if (config("dculuzui.darkTheme")) {
           if (
-            themeOrder[0] != config("dcui.darkTheme") &&
-            themeOrder.includes(config("dcui.darkTheme"))
+            themeOrder[0] != config("dculuzui.darkTheme") &&
+            themeOrder.includes(config("dculuzui.darkTheme"))
           ) {
             addBase({
               ["@media (prefers-color-scheme: dark)"]: {
                 [":root"]:
                   includedThemesObj[
-                  `[data-theme=${config("dcui.darkTheme")}]`
+                  `[data-theme=${config("dculuzui.darkTheme")}]`
                   ],
               },
             });

@@ -16,10 +16,10 @@ module.exports = {
   //...
 
   // add daisyUI plugin
-  plugins: [require("dcui")],
+  plugins: [require("dculuzui")],
 
   // daisyUI config (optional)
-  dcui: {
+  dculuzui: {
     styled: true,
     themes: true,
     base: true,
@@ -54,13 +54,13 @@ module.exports = {
 
   `Boolean (default: true)`
 
-  <Translate text="If it's true, <a href='https://github.com/saadeghi/dcui/blob/master/src/base'>a few base styles</a> will be added" />
+  <Translate text="If it's true, <a href='https://github.com/saadeghi/dculuzui/blob/master/src/base'>a few base styles</a> will be added" />
 
 - ### utils
 
   `Boolean (default: true)`
 
-  <Translate text="If it's true, <a href='https://github.com/saadeghi/dcui/tree/master/src/utilities'>responsive and utility classes</a> will be added" />
+  <Translate text="If it's true, <a href='https://github.com/saadeghi/dculuzui/tree/master/src/utilities'>responsive and utility classes</a> will be added" />
 
 - ### logs
 

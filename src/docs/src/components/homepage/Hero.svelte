@@ -9,7 +9,7 @@
       <h1 class="font-title mb-2 py-4 font-extrabold lg:py-10">
         <div class="mb-2 text-5xl lg:text-7xl">daisyUI</div>
         <div class="text-2xl lg:text-3xl">
-          {@html $t("dcui-tagline")}
+          {@html $t("dculuzui-tagline")}
         </div>
       </h1>
       <div class="flex w-full flex-col items-start space-y-10 lg:flex-row lg:space-x-4 lg:space-y-0">
@@ -35,7 +35,7 @@
             {$t("feat-5")}
           </div>
         </div>
-        <div class="mockup-code border-base-content w-full max-w-xs flex-1 border-2 border-opacity-20 bg-transparent pb-6 text-left text-current lg:mx-0"><pre data-prefix="$"><code>npm i dcui</code></pre></div>
+        <div class="mockup-code border-base-content w-full max-w-xs flex-1 border-2 border-opacity-20 bg-transparent pb-6 text-left text-current lg:mx-0"><pre data-prefix="$"><code>npm i dculuzui</code></pre></div>
       </div>
       <div class="mt-4 flex flex-1 justify-center space-x-2 sm:justify-start lg:mt-6 lg:justify-start">
         <a sveltekit:prefetch href="/components" class="btn btn-ghost btn-active lg:btn-lg normal-case">

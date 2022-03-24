@@ -19,7 +19,7 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 [![][dl]][npm-url] [![][stars]][gh-url] [![][commit]][gh-url]
 
 - 👉 [ [See all components][docs-url] ]
-- 📘 Documents: [dcui.com][docs-url]
+- 📘 Documents: [dculuzui.com][docs-url]
 - 🎲 Try it online: [Tailwind Play][tw-play-url] | [Codepen][codepen-url]
 - 📦 Source: [GitHub][gh-url] | [NPM][npm-url] | [Unpkg][unpkg-url] | [JSdeliver][jsdeliver-url] | [cdnjs][cdnjs-url]
 
@@ -54,7 +54,7 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 ## 📀 Install now!
 
 ```bash
-npm i dcui
+npm i dculuzui
 ```
 
 Then add daisyUI to your `tailwind.config.js`  
@@ -62,7 +62,7 @@ Then add daisyUI to your `tailwind.config.js`
 
 ```js
 module.exports = {
-  plugins: [require("dcui")],
+  plugins: [require("dculuzui")],
 };
 ```
 
@@ -74,7 +74,7 @@ module.exports = {
 Loading CSS files from CDN is not recommended for production. It's better to install Tailwind and daisyUI as Nodejs dependencies so you can config/customize everything, and purge unused styles.
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/dcui@2.12.0/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/dculuzui@2.12.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 ```
 
@@ -110,14 +110,14 @@ Use component classes to build your UI.
 ## 📘 Documents + Examples
 
 See the official site:  
-[ [dcui.com][docs-url] ↗︎ ]
+[ [dculuzui.com][docs-url] ↗︎ ]
 
 ---
 
 ## 🤝 Contributing
 
 Read the documents for more info:  
-[ [Read contribution guide](https://github.com/saadeghi/dcui/blob/master/.github/CONTRIBUTING.md) ]
+[ [Read contribution guide](https://github.com/saadeghi/dculuzui/blob/master/.github/CONTRIBUTING.md) ]
 
 ---
 
@@ -211,14 +211,14 @@ Read the documents for more info:
 </summary>
   
 - Blogs
-  - [Logrocket](https://blog.logrocket.com/dcui-tailwind-components-react-apps/)
+  - [Logrocket](https://blog.logrocket.com/dculuzui-tailwind-components-react-apps/)
   - [GraphCMS](https://graphcms.com/blog/build-a-personal-timeline-with-graphcms-and-sveltekit)
   - [wweb.dev](https://wweb.dev/weekly/85/)
   - [flaming.codes](https://flaming.codes/posts/boostrap-tailwind-alternative-with-daisy-ui)
-  - [rockyourcode](https://www.rockyourcode.com/how-to-setup-react-typescript-with-snowpack-and-dcui/)
+  - [rockyourcode](https://www.rockyourcode.com/how-to-setup-react-typescript-with-snowpack-and-dculuzui/)
   - [HackerNews](https://news.ycombinator.com/item?id=28004515)
-  - [Product Hunt](https://www.producthunt.com/posts/dcui)
-  - [Siecle Digital](https://siecledigital.fr/2021/05/29/dcui-plugin-gratuit-avec-composants-tailwind-css-a/)
+  - [Product Hunt](https://www.producthunt.com/posts/dculuzui)
+  - [Siecle Digital](https://siecledigital.fr/2021/05/29/dculuzui-plugin-gratuit-avec-composants-tailwind-css-a/)
   - [speckyboy](https://speckyboy.com/weekly-news-for-designers-594/)
   - [dailydev](https://app.daily.dev/posts/-4OPGw0te)
   - [Future Tech Blog (Japanese)](https://future-architect.github.io/articles/20211124a/)
@@ -259,27 +259,27 @@ Read the documents for more info:
 
 </div>
 
-[install-size]: https://badgen.net/bundlephobia/minzip/dcui?label=bundle%20size&color=green
-[build]: https://badgen.net/github/checks/saadeghi/dcui?label=build
-[npm]: https://badgen.net/github/tag/saadeghi/dcui?label=version&color=green
-[dl]: https://badgen.net/npm/dt/dcui?label=installs&icon=npm&color=green
-[commit]: https://badgen.net/github/last-commit/saadeghi/dcui?icon=github&color=green
-[license]: https://badgen.net/github/license/saadeghi/dcui?color=green
-[stars]: https://badgen.net/github/stars/saadeghi/dcui?color=green
+[install-size]: https://badgen.net/bundlephobia/minzip/dculuzui?label=bundle%20size&color=green
+[build]: https://badgen.net/github/checks/saadeghi/dculuzui?label=build
+[npm]: https://badgen.net/github/tag/saadeghi/dculuzui?label=version&color=green
+[dl]: https://badgen.net/npm/dt/dculuzui?label=installs&icon=npm&color=green
+[commit]: https://badgen.net/github/last-commit/saadeghi/dculuzui?icon=github&color=green
+[license]: https://badgen.net/github/license/saadeghi/dculuzui?color=green
+[stars]: https://badgen.net/github/stars/saadeghi/dculuzui?color=green
 [tweet]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsaadeghi%2Fdaisyui
-[install-size-url]: https://bundlephobia.com/result?p=dcui
-[license-url]: https://github.com/saadeghi/dcui/blob/master/LICENSE
-[npm-url]: https://www.npmjs.com/package/dcui
-[cdnjs-url]: https://cdnjs.com/libraries/dcui
-[gh-url]: https://github.com/saadeghi/dcui
-[tw-play-url]: https://dcui.com/tailwindplay
+[install-size-url]: https://bundlephobia.com/result?p=dculuzui
+[license-url]: https://github.com/saadeghi/dculuzui/blob/master/LICENSE
+[npm-url]: https://www.npmjs.com/package/dculuzui
+[cdnjs-url]: https://cdnjs.com/libraries/dculuzui
+[gh-url]: https://github.com/saadeghi/dculuzui
+[tw-play-url]: https://dculuzui.com/tailwindplay
 [codepen-url]: https://codepen.io/saadeghi/pen/gOwWKvv
-[unpkg-url]: https://unpkg.com/browse/dcui/
-[jsdeliver-url]: https://www.jsdelivr.com/package/npm/dcui
-[build-url]: https://github.com/saadeghi/dcui/actions
-[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AUI%20Components%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/dcui
+[unpkg-url]: https://unpkg.com/browse/dculuzui/
+[jsdeliver-url]: https://www.jsdelivr.com/package/npm/dculuzui
+[build-url]: https://github.com/saadeghi/dculuzui/actions
+[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AUI%20Components%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/dculuzui
 [number-of-components]: https://badgen.net/badge/total%20components/45/green
-[docs-url-install]: https://dcui.com/docs/install
-[docs-url]: https://dcui.com/
-[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/dcui/logo-4.svg
-[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/dcui/card-3.png
+[docs-url-install]: https://dculuzui.com/docs/install
+[docs-url]: https://dculuzui.com/
+[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculuzui/logo-4.svg
+[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculuzui/card-3.png
