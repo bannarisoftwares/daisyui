@@ -21,12 +21,12 @@ module.exports = {
       }
     }
   },
-  daisyui: {
+  dcui: {
     logs: false,
   },
   plugins: [
     require('@tailwindcss/typography'),
-    process.env.NODE_ENV === 'production' ? require('daisyui') : [],
+    process.env.NODE_ENV === 'production' ? require('dcui') : [],
   ],
   presets: [
     process.env.NODE_ENV === 'production' ? [] : require('../components/tailwind.config.js'),
